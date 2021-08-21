@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/collection/190727/1600x900" alt="Los Angeles" width="1100"
+                    height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/collection/190727/1600x900" alt="Chicago" width="1100"
+                    height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/collection/190727/1600x900" alt="New York" width="1100"
+                    height="500">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <section class="my-4">
+        <h2 class="text-center">About Us</h2>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 my-4">
+                <img width="100%"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2LZLkIhyzlLJrtDUr5IjpUEnq5cGH-ce7ZA&usqp=CAU"
+                    alt="" class="image-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 my-4">
+                <h2>Naveed Hussain</h2>
+                <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores maxime dolorum quas in
+                    modi! Impedit ad culpa laudantium recusandae et atque in reiciendis!</p>
+                <a class="btn btn-success" href="#">Read More...</a>
+            </div>
+        </div>
+    </div>
+    <section class="my-4">
+        <h2 class="text-center">Gallery</h2>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2LZLkIhyzlLJrtDUr5IjpUEnq5cGH-ce7ZA&usqp=CAU" class="image-fluid" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2LZLkIhyzlLJrtDUr5IjpUEnq5cGH-ce7ZA&usqp=CAU" class="image-fluid" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2LZLkIhyzlLJrtDUr5IjpUEnq5cGH-ce7ZA&usqp=CAU" class="image-fluid" alt="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2LZLkIhyzlLJrtDUr5IjpUEnq5cGH-ce7ZA&usqp=CAU" class="image-fluid" alt="">
+            </div>
+            
+        </div>
+
+</body>
+
+</html>
